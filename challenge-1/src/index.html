@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Stepper form</h1>
+      <div class="step-form">
+        <section class="step active" id="username">
+          <h2>Step 1 - Username</h2>
+          <form>
+            <input
+              type="text"
+              placeholder="Username"
+              name="username"
+              id="username"
+              autofocus
+            />
+            <div class="btn-container">
+              <button type="submit">Next</button>
+            </div>
+          </form>
+        </section>
+        <section class="step" id="password">
+          <h2>Step 2 - Password</h2>
+          <form>
+            <input
+              type="password"
+              placeholder="Password"
+              name="password"
+              id="password"
+            />
+            <div class="btn-container">
+              <button type="reset">Previous</button>
+              <button type="submit">Next</button>
+            </div>
+          </form>
+        </section>
+        <section class="step" id="confirm">
+          <h2>Step 3 - Confirm</h2>
+          <form action="">
+            <div>
+              <span class="label">Username: </span><span class="value"></span>
+            </div>
+            <div>
+              <span class="label">Password: </span><span class="value"></span>
+            </div>
+            <div class="btn-container">
+              <button type="reset">Previous</button>
+              <button type="submit">Submit form</button>
+            </div>
+          </form>
+        </section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
