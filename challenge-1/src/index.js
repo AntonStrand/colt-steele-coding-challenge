@@ -7,10 +7,10 @@ const query = query => element => element.querySelector(query)
 /** queryAll :: String -> HTMLElement -> [HTMLElement] */
 const queryAll = query => element => Array.from(element.querySelectorAll(query))
 
-/** getActiveStep :: () -> HTMLElement -> HTMLElement */
+/** getActiveStep :: () -> HTMLElement */
 const getActiveStep = () => query('.active')(window.document)
 
-/** getSteps :: () -> HTMLElement -> [HTMLElement] */
+/** getSteps :: () -> [HTMLElement] */
 const getSteps = () => queryAll('.step-form > .step')(window.document)
 
 /** getInput :: HTMLElement -> HTMLElement */
