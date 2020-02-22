@@ -1,9 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
 body {
   color: #4ea8a5;
   font-size: 16px;
   background: #70d6d2;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Roboto', Geneva, Verdana, sans-serif;
 }
 
 main {
@@ -63,6 +64,7 @@ button {
   margin: 1em 0;
 }
 
+/* Add padding between buttons */
 button + button {
   margin-left: 10px;
 }
