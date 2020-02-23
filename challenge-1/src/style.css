@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
-
 body {
   color: #4ea8a5;
   font-size: 16px;
   background: #70d6d2;
-  font-family: 'Roboto', Geneva, Verdana, sans-serif;
+  font-family: 'Helvetica', 'Apple Color Emoji', Arial, sans-serif,
+    'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 main {
@@ -45,6 +44,10 @@ input {
   border-radius: 3px;
   border: 1px solid #c1c1c1;
   box-sizing: border-box;
+}
+
+.label {
+  font-weight: bold;
 }
 
 button {
